@@ -1,14 +1,15 @@
 body {
-    background-image: url("fotos/teste-padrão-abstrato-da-química-em-escuro-fundo-azul-com-fórmulas-químicas-e-estruturas-moleculars-ci-ncia-conceito-147385882.jpg");  
+    background-image: url("fotos/teste-padrão-abstrato-da-química-em-escuro-fundo-azul-com-fórmulas-químicas-e-estruturas-moleculars-ci-ncia-conceito-147385882.jpg");
     scroll-snap-align: center !important;
-    overflow-x:hidden !important;
+    overflow-x: hidden !important;
     background-repeat: no-repeat;
     color: white !important;
 }
 
 .card {
-    background-color: rgba(0, 0, 0, 0.534) !important;
+    background-color: rgba(0, 0, 0, 0.61) !important;
     border: 1px solid white !important;
+
 }
 
 .col-sm-12 p {
@@ -17,6 +18,49 @@ body {
     color: red;
 }
 
-a{
-    cursor: pointer!important;
+a {
+    cursor: pointer !important;
+}
+
+.text-resp {
+    color: white;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.text-resp:hover {
+    color: red;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.btn-skip {
+    width: 100px!important;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.342);
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    transition: 1s;
+}
+
+.btn-skip:hover {
+    width: 100px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.amostra{
+   display: block;
+}
+
+.a-amostra{
+    display: none;
 }
